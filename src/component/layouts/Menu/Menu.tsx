@@ -125,14 +125,7 @@ export default function Menu({ open, onDrawerClose }: MenuProp) {
             <ListItemText primary="Stock" />
           </ListItemButton>
         </ListItem>
-        <ListItem component={NavLink} to="/stock" >
-          <ListItemButton>
-            <ListItemIcon>
-              <Layers />
-            </ListItemIcon>
-            <ListItemText primary="Stock" />
-          </ListItemButton>
-        </ListItem>
+        
         <ListItem component={NavLink} to="/report">
           <ListItemButton>
             <ListItemIcon>
